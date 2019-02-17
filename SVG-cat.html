@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>叮当猫</title>
+    <style>
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border: 1px solid black;
+        }
+        path {
+            stroke: #000;
+            fill: #fff;
+        }
+        #head1 {
+            fill: rgb(0, 153, 255);
+        }
+        #neck {
+            stroke: red;
+            stroke-width: 20px;
+            stroke-linecap: round;
+        }
+        circle {
+            stroke: red;
+            fill: red;
+        }
+        #snont2{
+            fill: #fff;
+        }
+        #eye1{
+            stroke: black;
+            fill: #fff;
+        }
+        #leg{
+            fill: rgb(0, 153, 255);
+        }
+        polyline{
+            stroke: black;
+            fill: #fff;
+        }
+        #bottom {
+            fill: rgb(0, 153, 255);
+        }
+        #hand {
+            stroke: black;
+            fill: #fff;
+        }
+        #foot {
+            stroke: black;
+            fill: #fff;
+        }
+        #bell {
+            stroke: #444;
+            stroke-width: 1.5px;
+            fill: rgb(252, 177, 17);
+        }
+        #bell2 {
+            stroke: #222;
+            stroke-width: 3px;
+            fill: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <svg width='500'height='600'>
+        <path id="neck" d='M 150 350 L 350 350'></path>
+        <path id="head1" d='M 150 340 A 170 165 0 1 1 350 340'></path>
+        <path id="head2" d='M 160 340 A 145 125 0 1 1 340 340'></path>
+
+        <path id="mouth1" d='M 160 280 A 120 120 0 0 0 340 280'></path>
+        <path id="mouth2" d='M 250 320 L 250 200'></path>
+
+        <path id="mouth" d='M 120 240 L 220 240'></path>
+        <path id="mouth" d='M 280 240 L 380 240'></path>
+        
+        <path id="mouth" d='M 280 225 L 370 200'></path>
+        <path id="mouth" d='M 220 225 L 130 200'></path>
+        
+        <path id="mouth" d='M 280 255 L 370 275'></path>
+        <path id="mouth" d='M 220 255 L 130 275'></path>
+        
+        <circle id="snont1" r="20" cx="250" cy="180"></circle>
+        <ellipse id="snont2" rx='8' ry='10' cx='258' cy='176'></ellipse>
+        
+        <ellipse id="eye1" rx='40' ry='50' cx='207' cy='130'></ellipse>
+        <ellipse id="eye1" rx='40' ry='50' cx='293' cy='130'></ellipse>
+
+        <ellipse id="eye2" rx='10' ry='13' cx='215' cy='150'></ellipse>        
+        <ellipse id="eye2" rx='10' ry='13' cx='285' cy='150'></ellipse>
+        
+
+       
+        
+        
+        <!-- <path id="leg" d='M 150 360 L 150 550'></path>
+        <path id="leg" d='M 350 360 L 350 550'></path> -->
+        
+        <polyline id="bottom" points='150 360,90 340,75 375,150 400,150 550 350 550,350 400,410 420,425 385,350 360'></polyline>
+        <path d='M 150 400 L 150 388'></path>
+        <path d='M 350 400 L 350 388'></path>
+        
+        
+        <circle id="hand" r='27' cx='83' cy='357'></circle>
+        <circle id="hand" r='27' cx='417' cy='403'></circle>
+        
+        <path d='M 230 552 A 10 15 0 0 1 270 552'></path>
+        
+        <ellipse id="foot" rx='58' ry='18' cx='188' cy='550'></ellipse>
+        <ellipse id="foot" rx='58' ry='18' cx='312' cy='550'></ellipse>
+        
+        <path id="tripe1" d='M 175 360 A 85 85 0 1 0 325 360'></path>
+        <circle id="bell" r="22" cx="250" cy="372"></circle>
+        <path id="bell" d='M 230 361 L 270 361'></path>
+        <path id="bell" d='M 235 357 L 265 357'></path>
+        <path id="bell2" d='M 250 385 L 250 395'></path>
+        <circle id="bell2" r="7" cx="250" cy="382"></circle>
+        
+        <path d='M 200 420 L 300 420'></path>
+        <path d='M 200 420 A 50 50 0 1 0 300 420'></path>
+        
+
+        
+        
+        
+        
+
+        <!-- <path id="tripe1" d='M 175 360 A 85 85 0 1 0 325 360'></path> -->
+        
+
+        
+    </svg>
+    
+</body>
+</html>
